@@ -1,0 +1,54 @@
+{
+
+  "type": "module",
+
+  "name": "backend",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "nodemon server.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "cors": "^2.8.5",
+
+    "express": "^4.18.1",
+
+    "express-async-handler": "^1.2.0",
+
+    "express-rate-limit": "^6.6.0",
+
+    "ioredis": "^5.2.3",
+
+    "moment": "^2.29.4",
+
+    "mongo": "^0.1.0",
+
+    "mongod": "^2.0.0",
+
+    "mongoose": "^6.6.1",
+
+    "nodemon": "^2.0.19",
+
+    "redis": "^4.3.1",
+
+    "socket.io": "^4.5.2"
+
+  }
+
+}
+
